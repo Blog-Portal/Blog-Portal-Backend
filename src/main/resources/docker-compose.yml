@@ -1,0 +1,15 @@
+# services:
+#   blogportalbackendcon:
+#     image: blogportalbackend
+#     container_name: "blogportalbackendcon"
+#     ports:
+#       - "8080:8080"
+      
+#   blogportalmongodbcon:
+#     image: mongo
+#     container_name: "blogportalmongodbcon"
+#     ports:
+#       - "27017:27017"
+
+#     links:
+#       - blogportalmongodbcon:mongo
